@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Profile</title>
+    <title>Company Profile - WSK</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
@@ -15,12 +15,13 @@
     <header class="bg-blue-600 text-white p-5">
         <div class="container mx-auto flex justify-between items-center">
             <div class="text-2xl font-bold">
-                <a href="#">CompanyName</a>
+                <a href="#">WSK - Winner Sumbiri Knitting</a>
             </div>
             <nav>
                 <ul class="flex space-x-5">
                     <li><a href="#about" class="hover:text-gray-300">About Us</a></li>
                     <li><a href="#services" class="hover:text-gray-300">Services</a></li>
+                    <li><a href="#portfolio" class="hover:text-gray-300">Portfolio</a></li>
                     <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
                 </ul>
             </nav>
@@ -28,9 +29,9 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-cover bg-center h-screen" style="background-image: url('your-image.jpg');">
+    <section class="bg-cover bg-center h-screen" style="background-image: url('https://your-image-link.com');">
         <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
-            <h1 class="text-white text-4xl md:text-6xl font-semibold text-center" data-aos="fade-up">Welcome to CompanyName</h1>
+            <h1 class="text-white text-4xl md:text-6xl font-semibold text-center" data-aos="fade-up">Welcome to WSK</h1>
         </div>
     </section>
 
@@ -38,7 +39,15 @@
     <section id="about" class="py-20" data-aos="fade-up">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-5">About Us</h2>
-            <p class="text-lg text-gray-700">Here at CompanyName, we specialize in providing the best products and services for your needs. Our mission is to deliver top-notch quality and innovation in every project we undertake.</p>
+            <p class="text-lg text-gray-700">
+                Winner Sumbiri Knitting (WSK) is a leading textile manufacturer specializing in high-quality warp and
+                weft knitted fabrics. We supply to industries such as apparel, activewear, swimwear, and shapewear, with
+                a focus on sustainable practices and cutting-edge technologies like KnitTech 3x1.
+            </p>
+            <p class="text-lg text-gray-700 mt-5">
+                With a commitment to excellence, we are continually innovating and improving our production processes to
+                meet the demands of a dynamic market while maintaining our dedication to eco-friendly practices.
+            </p>
         </div>
     </section>
 
@@ -48,31 +57,56 @@
             <h2 class="text-3xl font-bold mb-5">Our Services</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
                 <div class="bg-white p-6 shadow-lg rounded-lg" data-aos="flip-left">
-                    <h3 class="text-xl font-semibold mb-3">Service 1</h3>
-                    <p class="text-gray-600">Short description of the service provided by the company.</p>
+                    <h3 class="text-xl font-semibold mb-3">Fabric Production</h3>
+                    <p class="text-gray-600">We provide high-quality knitted fabrics with advanced knitting techniques for various applications.</p>
                 </div>
                 <div class="bg-white p-6 shadow-lg rounded-lg" data-aos="flip-left">
-                    <h3 class="text-xl font-semibold mb-3">Service 2</h3>
-                    <p class="text-gray-600">Short description of the service provided by the company.</p>
+                    <h3 class="text-xl font-semibold mb-3">Sustainable Practices</h3>
+                    <p class="text-gray-600">Our production process is committed to sustainability, reducing waste and using eco-friendly materials.</p>
                 </div>
                 <div class="bg-white p-6 shadow-lg rounded-lg" data-aos="flip-left">
-                    <h3 class="text-xl font-semibold mb-3">Service 3</h3>
-                    <p class="text-gray-600">Short description of the service provided by the company.</p>
+                    <h3 class="text-xl font-semibold mb-3">Custom Solutions</h3>
+                    <p class="text-gray-600">We work closely with clients to develop custom fabric solutions tailored to their specific needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-5">Our Portfolio</h2>
+            <p class="text-lg text-gray-700 mb-10">Explore some of our successful projects and partnerships with top-tier brands.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <img src="https://your-image-link1.com" alt="Project 1" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                    <p class="text-gray-600">A brief description of the project highlighting our involvement and the result.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <img src="https://your-image-link2.com" alt="Project 2" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                    <p class="text-gray-600">A brief description of the project highlighting our involvement and the result.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg">
+                    <img src="https://your-image-link3.com" alt="Project 3" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+                    <p class="text-gray-600">A brief description of the project highlighting our involvement and the result.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20" data-aos="fade-up">
+    <section id="contact" class="bg-blue-600 text-white py-20" data-aos="fade-up">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-5">Contact Us</h2>
-            <p class="text-lg text-gray-700 mb-5">Have questions? Feel free to get in touch with us!</p>
+            <p class="text-lg mb-5">Have any questions? Feel free to reach out to us!</p>
             <form action="#" method="POST" class="space-y-4 max-w-lg mx-auto">
                 <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg border border-gray-300">
                 <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border border-gray-300">
                 <textarea placeholder="Your Message" class="w-full p-3 rounded-lg border border-gray-300"></textarea>
-                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg">Send Message</button>
+                <button type="submit" class="w-full bg-green-600 text-white py-3 rounded-lg">Send Message</button>
             </form>
         </div>
     </section>
@@ -80,7 +114,7 @@
     <!-- Footer -->
     <footer class="bg-blue-600 text-white py-5">
         <div class="container mx-auto text-center">
-            <p>&copy; 2025 CompanyName. All Rights Reserved.</p>
+            <p>&copy; 2025 WSK - Winner Sumbiri Knitting. All Rights Reserved.</p>
             <div class="space-x-4 mt-3">
                 <a href="#" class="hover:text-gray-300">Facebook</a>
                 <a href="#" class="hover:text-gray-300">Instagram</a>
